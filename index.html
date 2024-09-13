@@ -3,9 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TI-3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
+<style>
+    body {
+        background-color: black;
+    }
+
+    .div-hola-mundo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .h1-hola-mundo {
+        color: #ffffff;
+        font-family: "Kanit", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        transition: transform 0.3s ease; 
+        font-size: 50px;
+    }
+
+    .h1-hola-mundo:hover {
+        transform: scale(1.1);
+    }
+
+    .h1-hola-mundo span {
+        color: #f51818;
+    }
+
+    .img-hola-mundo {
+        width: 400px;
+        height: auto;
+    }
+
+
+</style>
 <body>
-    <h1>Hola Mundo</h1>
+    <div class="div-hola-mundo">
+        <img class="img-hola-mundo" src="https://i.pinimg.com/originals/f3/50/c5/f350c5449e9870adfca4446b3760da46.gif" alt="Hola Mundo">
+        <h1 class="h1-hola-mundo">Hola Mundo Soy <span>Alan Ramos</span></h1>
+    </div>
 </body>
 </html>
